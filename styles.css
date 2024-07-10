@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+}
+canvas {
+  display: block;
+}
+#score,
+#gameOver {
+  position: absolute;
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+}
+#score {
+  top: 10px;
+  left: 10px;
+}
+#gameOver {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  display: none;
+}
